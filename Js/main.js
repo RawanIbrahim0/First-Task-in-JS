@@ -19,6 +19,7 @@ function checkStudent(math, physics, programming, arabic) {
     else if (passed === 2 && failed.length === 2 && failed.every(mark => mark === 59)) {
       return "الطالب ناجح (مساعدة بعلامتين)";
     } 
+      
     else {
       return "الطالب راسب";
     }
@@ -47,4 +48,4 @@ function checkStudent(math, physics, programming, arabic) {
 
   ///////////////////////////////////////////
  
-  console.log(checkStudent(70, 70, 80, 58)); // ناجح (مساعدة بمادة واحدة)
+  console.log(checkStudent(90, 55, 80, 58)); // ناجح (مساعدة بمادة واحدة)
